@@ -55,10 +55,6 @@ const startTimer = () => {
   if (milliSecond > 9 && milliSecond < 99) {
     milliSecOutput.innerText = `0${milliSecond}`;
   }
-  // milliSecOutput.innerText = milliSecond;
-  // if (milliSecond < 9) {
-
-  //   secondOutput.innerText = ` 0${second} : `;
   if (milliSecond > 99) {
     second++;
     milliSecond = 0;
